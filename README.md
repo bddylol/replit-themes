@@ -18,6 +18,10 @@ el.setAttribute('href', 'https://cdn.jsdelivr.net/gh/buddy-codes/replit-themes/<
 
 document.head.appendChild(el);
 ```
+or this bookmarklet:
+```js
+javascript:void%20function(){const%20t=document.createElement(%22link%22);t.setAttribute(%22rel%22,%22stylesheet%22),t.setAttribute(%22type%22,%22text/css%22),t.setAttribute(%22href%22,%22https://cdn.jsdelivr.net/gh/buddy-codes/replit-themes/%22+prompt(%22Write%20the%20file%20name%20as%20it%20appears%20on%20the%20github%20repo%20(without%20.css)%22)+%22.min.css%22),document.head.appendChild(t)}();
+```
 
 ## Contributions
 If you would like to contribute you can make a PR.
