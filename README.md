@@ -13,7 +13,7 @@ let el = document.createElement('link');
 
 el.setAttribute('rel', 'stylesheet');
 el.setAttribute('type', 'text/css');
-el.setAttribute('href', 'https://cdn.jsdelivr.net/gh/buddy-codes/replit-themes/<filename>min.css');
+el.setAttribute('href', 'https://cdn.jsdelivr.net/gh/buddy-codes/replit-themes/<filename>.min.css');
 // Example of this URL: https://cdn.jsdelivr.net/gh/buddy-codes/replit-themes/discord.repl.theme.min.css
 
 document.head.appendChild(el);
