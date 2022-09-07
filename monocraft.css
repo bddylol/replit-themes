@@ -3,6 +3,8 @@
     src: url("https://cdn.jsdelivr.net/gh/IdreesInc/Monocraft@main/Monocraft.otf") format("opentype");
 }
 
-.cm-content.cm-lineWrapping {
-  font-family: Monocraft;
+:root {
+    /* Prefer Monocraft, if not then use ReplitHack (default Replit font) and then monospace if ReplitHack fails to load */
+    --font-family-code: 'Monocraft','ReplitHack',monospace;
+    --background-default: green;
 }
