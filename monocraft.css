@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Monocraft;
+    src: url("https://cdn.jsdelivr.net/gh/IdreesInc/Monocraft@main/Monocraft.otf") format("opentype");
+}
+
+.cm-content.cm-lineWrapping {
+  font-family: Monocraft;
+}
