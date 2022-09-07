@@ -1,4 +1,4 @@
-.replit-ui-theme-root.dark {
+.replit-ui-theme-root.dark, .replit-ui-theme-root.light, .replit-ui-theme-root.spooky {
 	--background-root: #091226;
 	--background-default: #101A31;
 	--background-higher: #192133;
